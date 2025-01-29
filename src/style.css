@@ -16,11 +16,12 @@ header {
 h1 {
   text-align: center;
 }
-.form, .song-lyrics {
+.form,
+.song-lyrics {
   background-color: #f5ebeb;
   border: 2px solid #070f4e;
 }
-.form{
+.form {
   padding: 10px;
   border-radius: 10px;
   margin-bottom: 30px;
@@ -40,19 +41,28 @@ h1 {
   color: #f5ebeb;
   font-size: 15px;
 }
-.song-lyrics{
-    padding:15px 30px;
-    border-radius: 10px;
-    line-height: 1.7em
+.song-lyrics {
+  padding: 15px 30px;
+  border-radius: 10px;
+  line-height: 1.7em;
 }
-footer{
-    text-align: center;
-    padding: 10px;
-    margin: 20px;
+footer {
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
 }
-a{
-    text-decoration: none;
-    color:#f5ebeb;
-    font-weight: 600;
+a {
+  text-decoration: none;
+  color: #f5ebeb;
+  font-weight: 600;
 }
-
+.song-title {
+  font-size: 20px;
+}
+.signature {
+  color: #2772db;
+  margin: 50px 20px;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 3em;
+}
