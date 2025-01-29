@@ -1,1 +1,58 @@
+body {
+  background-color: #3ab1c8;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #070f4e;
+}
+.container {
+  margin: auto;
+  width: 70%;
+  max-width: 600px;
+  padding: 20px;
+}
+header {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: center;
+}
+.form, .song-lyrics {
+  background-color: #f5ebeb;
+  border: 2px solid #070f4e;
+}
+.form{
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+.input-fields {
+  width: 95%;
+  margin: 5px 2px;
+  padding: 5px;
+  font-size: 14px;
+}
+.submit-button {
+  padding: 10px;
+  margin: 10px 20px;
+  border-radius: 30px;
+  border: 1px solid #070f4e;
+  background-color: #2772db;
+  color: #f5ebeb;
+  font-size: 15px;
+}
+.song-lyrics{
+    padding:15px 30px;
+    border-radius: 10px;
+    line-height: 1.7em
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+}
+a{
+    text-decoration: none;
+    color:#f5ebeb;
+    font-weight: 600;
+}
 
