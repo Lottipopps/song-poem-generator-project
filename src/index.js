@@ -1,4 +1,4 @@
-import Typewriter from "typewriter-effect/dist/core";
+
 
 function generateSongLyrics(event) {
   event.preventDefault();
@@ -7,8 +7,9 @@ function generateSongLyrics(event) {
     strings:
       "L'Onore! <br /> Ladri! Voi state ligi all'onor vostro, voi! <br/> Cloache d'ignominia! <br/> - Sir John Falstaff",
     autoStart: true,
-  });
+  }).start();
 }
 
 let form = document.querySelector("form");
 form.addEventListener("submit", generateSongLyrics);
+console.log("Hello, ES Modules!");
