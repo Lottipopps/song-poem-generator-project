@@ -12,43 +12,50 @@
 </head>
 
 <body>
-    <header>
-        <h1>Welcome to the AI Song Lyric Generator</h1>
-    </header>
-    <main>
-        <form>
-            <input type="text" placeholder="Please enter the topic of the song" autocomplete="off" autofocus required />
-            <input type="text" placeholder="What language should the song be in?" autocomplete="off" required />
-            <input type="submit" />
-        </form>
-        <div>
-            L'Onore! <br />
-            Ladri! Voi state ligi all'onor vostro, voi! <br />
-            Cloache d'ignominia, quando, non sempre, noi <br />
-            Possiam star ligi al nostro. Io stesso, sì, io, io, <br />
-            Devo talor da un lato porre il timor di Dio <br />
-            E, per necessità, sviar l'onore, usare <br />
-            Stratagemmi ed equivoci, <br />
-            Destreggiar, bordeggiare. <br />
-            E voi, coi vostri cenci e coll'occhiata torta <br />
-            Da gatto-pardo e i fetidi sghignazzi avete a scorta <br />
-            Il vostro Onor! Che onore?! che onor? che onor! che ciancia! <br />
-            Che baia! - Può l'onore riempirvi la pancia? <br />
-            No. Può l'onor rimettervi uno stinco? Non può. <br />
-            Né un piede? No. Né un dito? Né un capello? No. <br />
-            L'onor non è chirurgo. Che è dunque? Una parola. <br />
-            Che c'è in questa parola? C'è dell'aria che vola. <br />
-            Bel costrutto! L'onore lo può sentire chi è morto? <br />
-            No. Vive sol coi vivi?... Neppure: perché a torto <br />
-            Lo gonfian le lusinghe, lo corrompe l'orgoglio, <br />
-            L'ammorban le calunnie; e per me non ne voglio! <br />
-            Ma, per tornare a voi, furfanti, ho atteso troppo. <br />
-            E vi discaccio. <br />
-        </div>
-    </main>
-    <footer>This project was coded by <a href="https://github.com/Lottipopps">Carlotta Missiroli</a> and is <a
-            href="https://github.com/Lottipopps/song-poem-generator-project">open-sourced</a> on GitHub and hosted on <a
-            href="https://song-lyric-generator.netlify.app/">Netlify</a>.</footer>
+    <div class="container">
+        <header>
+            <h1>AI Song Lyric Generator</h1>
+        </header>
+        <main>
+            <div class="form">
+                <form>
+                    <input type="text" placeholder="Please enter the topic of the song" autocomplete="off" autofocus
+                        required class="input-fields" />
+                    <input type="text" placeholder="What language should the song be in?" autocomplete="off" required
+                        class="input-fields" />
+                    <input type="submit" class="submit-button" value="Generate" />
+                </form>
+            </div>
+            <div class="song-lyrics">
+                L'Onore! <br />
+                Ladri! Voi state ligi all'onor vostro, voi! <br />
+                Cloache d'ignominia, quando, non sempre, noi <br />
+                Possiam star ligi al nostro. Io stesso, sì, io, io, <br />
+                Devo talor da un lato porre il timor di Dio <br />
+                E, per necessità, sviar l'onore, usare <br />
+                Stratagemmi ed equivoci, <br />
+                Destreggiar, bordeggiare. <br />
+                E voi, coi vostri cenci e coll'occhiata torta <br />
+                Da gatto-pardo e i fetidi sghignazzi avete a scorta <br />
+                Il vostro Onor! Che onore?! che onor? che onor! che ciancia! <br />
+                Che baia! - Può l'onore riempirvi la pancia? <br />
+                No. Può l'onor rimettervi uno stinco? Non può. <br />
+                Né un piede? No. Né un dito? Né un capello? No. <br />
+                L'onor non è chirurgo. Che è dunque? Una parola. <br />
+                Che c'è in questa parola? C'è dell'aria che vola. <br />
+                Bel costrutto! L'onore lo può sentire chi è morto? <br />
+                No. Vive sol coi vivi?... Neppure: perché a torto <br />
+                Lo gonfian le lusinghe, lo corrompe l'orgoglio, <br />
+                L'ammorban le calunnie; e per me non ne voglio! <br />
+                Ma, per tornare a voi, furfanti, ho atteso troppo. <br />
+                E vi discaccio. <br />
+            </div>
+        </main>
+        <footer>This project was coded by <a href="https://github.com/Lottipopps" target="_blank">Carlotta Missiroli</a>
+            and is <a href="https://github.com/Lottipopps/song-poem-generator-project" target="_blank">open-sourced</a>
+            on GitHub and hosted
+            on <a href="https://song-lyric-generator.netlify.app/" target="_blank">Netlify</a>.</footer>
+    </div>
     <script src="src/index.js"></script>
 </body>
 
