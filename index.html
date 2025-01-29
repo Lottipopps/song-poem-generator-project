@@ -20,9 +20,9 @@
             <div class="form">
                 <form>
                     <input type="text" placeholder="Please enter the topic of the song" autocomplete="off" autofocus
-                        required class="input-fields" />
+                        required class="input-fields" id="topic-input"/>
                     <input type="text" placeholder="What language should the song be in?" autocomplete="off" required
-                        class="input-fields" />
+                        class="input-fields" id="language-input"/>
                     <input type="submit" class="submit-button" value="Generate" />
                 </form>
             </div>
@@ -37,6 +37,7 @@
     </div>
     <script src="src/index.js"></script>
     <script type="module" src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
 </body>
 
 </html>
